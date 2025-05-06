@@ -1,3 +1,5 @@
+name = input("Enter Name: ")
+print("welcome to the quiz " + name)
 questions = {
     "what city is the eifel tower in? ": "Paris",
     "Who is the current prime minister of UK: ": "Boris Johnson",
@@ -13,4 +15,4 @@ for question, value in questions.items():
     else:
         print("wrong")
 
-print(f"you got {score} questions correctly")
+print(f"{name} got {score} questions correctly")
