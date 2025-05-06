@@ -16,3 +16,4 @@ for question, value in questions.items():
         print("wrong")
 
 print(f"{name} got {score} questions correctly")
+#well, thats it folks
